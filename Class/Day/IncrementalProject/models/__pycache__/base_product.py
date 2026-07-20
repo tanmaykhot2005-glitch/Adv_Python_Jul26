@@ -7,3 +7,4 @@ class BaseProduct(ABC, metaclass=ProductMeta):
     @abstractmethod
     def display_details(self):
         pass
+    
